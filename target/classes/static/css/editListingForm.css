@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* editListingForm.css */
+/* General Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #EEE2DC;
+  color: #123C69;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #BAB2B5;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #AC3B61;
+  color: #EEE2DC;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #BAB2B5;
+}
+
+/* Form Styles */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #123C69;
+  color: #EEE2DC;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  position: fixed;
+  bottom: 0;
+}
